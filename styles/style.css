@@ -30,6 +30,12 @@ a.link {
   text-decoration: none;
 }
 
+.main-text {
+  font-size: var(--main-font-size);
+  font-family: var(--main-font-family);
+  color: var(--text-color);
+}
+
 @media (width < 768px) {
   .page {
     /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
@@ -204,16 +210,7 @@ a.link {
 
   .header__theme-menu-button:focus-visible {
     border-bottom: 1px solid var(--button-color);
-  }
-
-  .header__theme-menu-button:focus-visible {
     border: 1px solid var(--button-color);
-  }
-
-  .main-text {
-    font-size: var(--main-font-size);
-    font-family: var(--main-font-family);
-    color: var(--text-color);
   }
 
   /*SECTION 1 WHY*/
@@ -339,15 +336,13 @@ a.link {
     padding-bottom: 10px;
     width: 355px;
     color: var(--title-small);
+    background-color: var(--bg-elements-color);
+    width: 355px;
   }
 
   .title_list {
     grid-column: 1;
     grid-row: 2;
-    background-color: var(--bg-elements-color);
-    width: 355px;
-  }
-  .title_inside_how {
     background-color: var(--bg-elements-color);
     width: 355px;
   }
@@ -367,9 +362,6 @@ a.link {
     grid-column: 1;
     grid-row: 4;
     padding-top: 9px;
-  }
-
-  .main-text-how_music {
   }
 
   .walk {
@@ -632,12 +624,6 @@ a.link {
     border: 1px solid var(--button-color);
   }
 
-  .main-text {
-    font-size: var(--main-font-size);
-    font-family: var(--main-font-family);
-    color: var(--text-color);
-  }
-
   /*SECTION 1 WHY*/
   .why {
     margin-top: 40px;
@@ -781,6 +767,7 @@ a.link {
     padding-right: 15px;
     padding-top: 3px;
   }
+
   .musik {
     grid-column: 2;
     grid-row: 3;
@@ -1065,12 +1052,6 @@ a.link {
 
   .header__theme-menu-button:focus-visible {
     border: 1px solid var(--button-color);
-  }
-
-  .main-text {
-    font-size: var(--main-font-size);
-    font-family: var(--main-font-family);
-    color: var(--text-color);
   }
 
   /*SECTION 1 WHY*/
