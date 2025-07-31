@@ -1113,9 +1113,11 @@ a.link {
   .title_inside_what {
     background-color: var(--bg-elements-color);
     width: 315px;
+    padding-top: 10px;
   }
 
   .text_inside_what {
+    padding-top: 20px;
     width: 315px;
   }
 
