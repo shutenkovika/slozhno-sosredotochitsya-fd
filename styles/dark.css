@@ -9,8 +9,53 @@
     Так стили написанные ниже будут иметь больший вес,
     чем стили в медиазапросе предпочтений пользователя
   */
+  --main-font-family: "IBM Plex Mono", monospace;
+  --main-font-size: 18px;
+  --h1-size: 157px;
+  --bg-color: #000028;
+  --bg-elements-color: #ff0070;
+  --text-color: #f1b2ce;
+  --text-elements-color: var(--title-small);
+  --h1-color: #db00ff;
+  --bg-image: url(../images/cover-image-dark.png);
+  --accent-color: #ff0070;
+  --button-font-family: "IBM Plex Mono", monospace;
+  --button-font-size: 18px;
+  --rec-display: block;
+  --title-decor: #ff0070;
+  --title-small: #000028;
+  --link-color: #ff0070;
+  --button-color: #ff0070;
+  --button-text-color: #ff0070;
 }
 
 .theme-dark .page {
-  /* Вам также нужно будет написать ряд подобных селекторов */
 }
+
+/* Вам также нужно будет написать ряд подобных селекторов */
+/*
+.header__theme-menu-button {
+  color: var(--bg-elements-color);
+  font-family: var(--button-font-family);
+ font-size: var(--button-font-size);
+}
+
+.header__theme-menu-button:focus-visible {
+  border: 1px solid var(--bg-elements-color);
+}
+
+.header__title {
+  display: block;
+  color: var(--h1-color);
+}
+
+.title_main_decor {
+  color: var(--bg-elements-color);
+}
+
+.title-decor,
+.title_inside_how {
+  background-color: var(--bg-elements-color);
+  color: var(--bg-color);
+}
+*/
