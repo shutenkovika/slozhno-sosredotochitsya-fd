@@ -86,8 +86,6 @@ a.link {
   .rec::after {
     content: "";
     display: inline-block;
-    margin-left: 8px;
-
     width: 11px;
     height: 11px;
     margin-left: 10px;
@@ -337,7 +335,6 @@ a.link {
     width: 355px;
     color: var(--title-small);
     background-color: var(--bg-elements-color);
-    width: 355px;
   }
 
   .title_list {
@@ -398,7 +395,8 @@ a.link {
 
   .title_gallery {
     grid-row: 1;
-    padding-bottom: 50px;
+    background-color: var(--bg-elements-color);
+    width: 355px;
   }
 
   .gallery__item {
@@ -412,12 +410,6 @@ a.link {
     inline-size: 100%;
     block-size: 100%;
     object-fit: cover;
-  }
-
-  .title_gallery {
-    background-color: var(--bg-elements-color);
-    width: 355px;
-    padding-bottom: 0;
   }
 
   .gallery__item:nth-child(2) {
