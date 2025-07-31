@@ -610,9 +610,6 @@ a.link {
 
   .header__theme-menu-button:focus-visible {
     border-bottom: 1px solid var(--button-color);
-  }
-
-  .header__theme-menu-button:focus-visible {
     border: 1px solid var(--button-color);
   }
 
@@ -736,6 +733,8 @@ a.link {
     font-weight: 400;
     padding-bottom: 10px;
     color: var(--title-small);
+    background-color: var(--bg-elements-color);
+    width: 472px;
   }
 
   .title_list {
@@ -743,10 +742,6 @@ a.link {
     grid-row: 1;
     background-color: var(--bg-elements-color);
     width: 470px;
-  }
-  .title_inside_how {
-    background-color: var(--bg-elements-color);
-    width: 472px;
   }
 
   .main-text-how {
@@ -1040,9 +1035,6 @@ a.link {
 
   .header__theme-menu-button:focus-visible {
     border-bottom: 1px solid var(--button-color);
-  }
-
-  .header__theme-menu-button:focus-visible {
     border: 1px solid var(--button-color);
   }
 
