@@ -16,4 +16,11 @@
   --bg-image: url(../images/cover-image-dark.png);
   --accent-color: #ff0070;
   --button-font-family: "IBM Plex Mono", monospace;
-  --button-font-siz
+  --button-font-size: 18px;
+  --rec-display: block;
+  --title-decor: #ff0070;
+  --title-small: #000028;
+  --link-color: #ff0070;
+  --button-color: #ff0070;
+  --button-text-color: #ff0070;
+}
