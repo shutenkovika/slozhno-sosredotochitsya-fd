@@ -40,7 +40,7 @@ a.link {
   .page {
     /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
 
-    min-width: 375px;
+    max-width: 375px;
     /*padding-top: 21px;*/
     background-image: var(--bg-image);
     background-color: var(--bg-color);
@@ -1271,7 +1271,7 @@ a.link {
     padding-top: 70px;
   }
   .footer__corner_top-left {
-    bottom: -40px;
+    bottom: -44px;
     left: 0;
     border-bottom: 1px solid var(--bg-elements-color);
     border-left: 1px solid var(--bg-elements-color);
@@ -1280,7 +1280,7 @@ a.link {
   }
 
   .footer__corner_bottom-right {
-    top: 82px;
+    top: 86px;
     right: 3px;
     border-top: 1px solid var(--bg-elements-color);
     border-right: 1px solid var(--bg-elements-color);
