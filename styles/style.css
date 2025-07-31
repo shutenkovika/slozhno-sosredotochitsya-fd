@@ -48,15 +48,25 @@ a.link {
     background-size: 100%;
     background-attachment: fixed;
   }
+
+  .main-container {
+    max-width: 375px;
+    margin: 0 auto;
+    padding-left: 10px; /* Отступы по бокам */
+    box-sizing: border-box;
+  }
+
   /*HEADER*/
 
   .decorated-zone {
     height: 100vh;
     /*max-height: 688px;*/
     min-height: 667px;
+    max-width: 375px;
+    padding-left: 10px;
     display: grid;
     position: relative;
-    grid-template-columns: 375px;
+    grid-template-columns: 360px;
     grid-template-rows: 30px 170px 250px 150px 65px;
     margin: 8.5px 0 0px 0;
   }
@@ -103,7 +113,7 @@ a.link {
     position: absolute;
     grid-column: 1;
     grid-row: 2;
-    padding-top: 35px;
+    padding-top: 36px;
     padding-right: 10px;
     justify-self: end;
   }
@@ -112,7 +122,7 @@ a.link {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    gap: 10px;
+    gap: 11px;
   }
 
   .header__corner {
@@ -122,8 +132,8 @@ a.link {
   }
 
   .header__corner_top-left {
-    bottom: 16px;
-    left: 8.5px;
+    bottom: 17px;
+    left: 0;
     border-bottom: 1px solid var(--bg-elements-color);
     border-left: 1px solid var(--bg-elements-color);
     grid-column: 1;
@@ -155,7 +165,7 @@ a.link {
     text-shadow: 4px 4px 0 var(--accent-color);
     color: var(--h1-color);
     padding-top: 30px;
-    padding-left: 10px;
+    width: 365px;
     line-height: 83%;
   }
 
@@ -163,9 +173,8 @@ a.link {
     grid-column: 1;
     grid-row: 4;
     padding-top: 27px;
-    padding-left: 8px;
 
-    width: 10px;
+    width: 350px;
   }
 
   .title-decor {
@@ -178,8 +187,8 @@ a.link {
   }
 
   .header__description {
-    max-height: 117px;
-    width: 360px;
+    max-height: 119px;
+    width: 354px;
   }
 
   .header__theme-menu-button {
@@ -187,6 +196,8 @@ a.link {
     border: 1px solid transparent;
     cursor: pointer;
     padding: 0 10px;
+    width: 69px;
+    height: 25px;
     outline: none;
     color: var(--button-text-color);
     font-family: var(--button-font-family);
@@ -214,12 +225,12 @@ a.link {
   /*SECTION 1 WHY*/
   .why {
     margin-top: 33px;
-    margin-left: 10px;
     display: grid;
-    grid-template-columns: 367px;
+    grid-template-columns: 360px;
     grid-template-rows: 47px repeat(2, 435px);
     gap: 17px;
     max-height: 949px;
+    max-width: 375px;
   }
 
   .title_main_why {
@@ -243,20 +254,22 @@ a.link {
 
   .mnogozadchnost {
     grid-row: 2;
+    padding-top: 2.5px;
   }
 
   .paragrph dofamine {
     grid-row: 3;
+    padding-top: 4px;
   }
 
   /*SECTION 2 WHAT*/
 
   .what {
     margin-top: 50px;
-    margin-left: 10px;
     min-height: 1119px;
     display: grid;
-    grid-template-columns: 367px;
+    max-width: 373px;
+    grid-template-columns: 360px;
     grid-template-rows: 47px 318px 318px 388px;
     gap: 14px;
   }
@@ -278,13 +291,13 @@ a.link {
   .food {
     grid-column: 1;
     grid-row: 3;
-    padding-top: 8.5px;
+    padding-top: 7px;
   }
 
   .gadgets {
     grid-column: 1;
     grid-row: 4;
-    padding-top: 6.5px;
+    padding-top: 9px;
   }
 
   .title_inside_what {
@@ -300,12 +313,13 @@ a.link {
   /*SECTION 3 HOW*/
 
   .how {
-    margin-top: 50px;
-    margin-left: 10px;
+    margin-top: 52px;
+
     display: grid;
-    grid-template-columns: 1737px;
-    grid-template-rows: 70px 47px 408px 244px 400px 244px 220px;
+    grid-template-columns: 360px;
+    grid-template-rows: 70px 47px 408px 244px 400px 244px 225px;
     gap: 16px;
+    max-width: 375px;
   }
 
   .title_main_decor {
@@ -383,14 +397,14 @@ a.link {
   /*SECTION 3 Gallery/*/
 
   .gallery {
-    margin-top: 55px;
-    margin-left: 10px;
+    margin-top: 50px;
     display: grid;
-    grid-template-columns: 375px;
+    grid-template-columns: 359.5px;
     grid-template-rows: 24px 142px 355px 237px 355px 237px;
     gap: 10px;
     box-sizing: border-box;
     grid-auto-flow: dense;
+    max-width: 375px;
   }
 
   .title_gallery {
@@ -402,7 +416,7 @@ a.link {
   .gallery__item {
     box-sizing: border-box;
     margin: 0;
-    max-width: 357px;
+    max-width: 355px;
   }
 
   .gallery__image {
@@ -437,7 +451,7 @@ a.link {
   }
 
   .footer__title {
-    padding-top: 80px;
+    padding-top: 77px;
   }
 }
 
