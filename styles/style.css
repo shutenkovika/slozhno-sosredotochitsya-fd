@@ -387,12 +387,12 @@ a.link:focus-visible {
   }
 
   .header.decorated-zone::before {
-    top: 0;
+    top: 20px;
     right: 20px;
   }
 
   .header.decorated-zone::after {
-    bottom: -431px;
+    bottom: 20px;
     left: 20px;
   }
 
@@ -590,9 +590,6 @@ a.link:focus-visible {
     grid-row: span 2;
   }
 
-  .gallery__item:nth-child(5) {
-  }
-
   .gallery__item:nth-child(6) {
     grid-column: span 2;
   }
@@ -683,7 +680,7 @@ a.link:focus-visible {
   }
 
   .header.decorated-zone::after {
-    bottom: -10px;
+    bottom: 20px;
   }
 
   .header__title {
@@ -795,9 +792,6 @@ a.link:focus-visible {
     padding-top: 10px;
   }
 
-  .title_main_what {
-  }
-
   /*SECTION 3 HOW*/
 
   .how {
@@ -894,9 +888,6 @@ a.link:focus-visible {
 
   .gallery__item:nth-child(4) {
     grid-row: span 2;
-  }
-
-  .gallery__item:nth-child(5) {
   }
 
   .gallery__item:nth-child(6) {
