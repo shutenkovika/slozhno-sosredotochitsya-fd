@@ -324,7 +324,7 @@ a.link:focus-visible {
   }
 
   footer {
-    margin: 151px 0 100px 0;
+    margin: 171px 0 100px 0;
   }
   h2 {
     padding: 60px 0 60px 3px;
@@ -335,7 +335,7 @@ a.link:focus-visible {
   }
 
   .footer.decorated-zone::after {
-    bottom: 40px;
+    bottom: 10px;
   }
 }
 
