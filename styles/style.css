@@ -182,7 +182,7 @@ a.link:focus-visible {
   }
 
   .header.decorated-zone::after {
-    bottom: -96.5px;
+    bottom: 20px;
   }
 
   .header__title {
@@ -387,12 +387,10 @@ a.link:focus-visible {
   }
 
   .header.decorated-zone::before {
-    top: 20px;
     right: 20px;
   }
 
   .header.decorated-zone::after {
-    bottom: 20px;
     left: 20px;
   }
 
