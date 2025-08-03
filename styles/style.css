@@ -239,7 +239,7 @@ a.link:focus-visible {
 
   /*SECTION 1 WHY*/
   .why {
-    margin-top: 147px;
+    margin-top: 100px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 18px;
@@ -325,7 +325,7 @@ a.link:focus-visible {
   }
 
   .footer.decorated-zone::after {
-    bottom: -137px;
+    bottom: 20px;
   }
 }
 
