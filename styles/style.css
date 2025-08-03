@@ -253,7 +253,7 @@ a.link:focus-visible {
   /*SECTION 2 WHAT*/
 
   .what {
-    margin-top: 50px;
+    margin-top: 52px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 22px;
@@ -271,7 +271,7 @@ a.link:focus-visible {
   /*SECTION 3 HOW*/
 
   .how {
-    margin-top: 53px;
+    margin-top: 51px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 22px;
@@ -289,7 +289,7 @@ a.link:focus-visible {
   /*SECTION 3 Gallery/*/
 
   .gallery {
-    margin-top: 50px;
+    margin-top: 51px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
@@ -316,7 +316,7 @@ a.link:focus-visible {
   }
 
   footer {
-    padding-bottom: 100px;
+    margin: 51px 0 100px 0;
   }
   h2 {
     padding: 60px 0 60px 3px;
