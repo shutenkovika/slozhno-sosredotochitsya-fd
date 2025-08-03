@@ -202,7 +202,7 @@ a.link:focus-visible {
   .description {
     grid-column: 1;
     grid-row: 4;
-    padding-top: 51px;
+    padding-top: 35px;
     padding-bottom: 55px;
   }
 
@@ -239,7 +239,7 @@ a.link:focus-visible {
 
   /*SECTION 1 WHY*/
   .why {
-    margin-top: 43px;
+    margin-top: 35px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 22px;
@@ -271,7 +271,7 @@ a.link:focus-visible {
   /*SECTION 3 HOW*/
 
   .how {
-    margin-top: 47px;
+    margin-top: 53px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 22px;
@@ -315,6 +315,9 @@ a.link:focus-visible {
     object-fit: cover;
   }
 
+  footer {
+    padding-bottom: 100px;
+  }
   h2 {
     padding: 60px 0 60px 3px;
   }
