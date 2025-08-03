@@ -202,7 +202,7 @@ a.link:focus-visible {
   .description {
     grid-column: 1;
     grid-row: 4;
-    padding-top: 54px;
+    padding-top: 51px;
     padding-bottom: 55px;
   }
 
@@ -242,7 +242,7 @@ a.link:focus-visible {
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 18px;
+    gap: 22px;
     width: 100%;
   }
 
@@ -256,7 +256,7 @@ a.link:focus-visible {
     margin-top: 50px;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 19px;
+    gap: 22px;
     width: 100%;
   }
 
@@ -274,7 +274,7 @@ a.link:focus-visible {
     margin-top: 47px;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 19px;
+    gap: 22px;
     width: 100%;
   }
 
@@ -316,7 +316,7 @@ a.link:focus-visible {
   }
 
   h2 {
-    padding-top: 40px;
+    padding-top: 60px;
     padding-left: 3px;
   }
 
