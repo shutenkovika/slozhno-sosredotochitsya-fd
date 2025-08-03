@@ -11,12 +11,13 @@
   */
   --main-font-family: "IBM Plex Mono", monospace;
   --main-font-size: 18px;
-  --h1-size: 157px;
+  --main-title-size: 157px;
   --bg-color: #fff1f7;
   --bg-elements-color: #ff8dcb;
+  --corner-color: #353430;
   --text-color: #353430;
   --text-elements-color: #353430;
-  --h1-color: #ffc2e6;
+  --main-title-color: #ffc2e6;
   --bg-image: url(../images/cover-image-light.png);
   --accent-color: #ff8dcb;
   --button-font-family: "IBM Plex Mono", monospace;
@@ -43,12 +44,13 @@
   :root {
     --main-font-family: "IBM Plex Mono", monospace;
     --main-font-size: 18px;
-    --h1-size: 157px;
+    --main-title-size: 157px;
     --bg-color: #fff1f7;
     --bg-elements-color: #ff8dcb;
+    --corner-color: #353430;
     --text-color: #353430;
     --text-elements-color: #353430;
-    --h1-color: #ffc2e6;
+    --main-title-color: #ffc2e6;
     --bg-image: url(../images/cover-image-light.png);
     --accent-color: #ff8dcb;
     --button-font-family: "IBM Plex Mono", monospace;
