@@ -759,19 +759,19 @@ a.link:focus-visible {
   .eat {
     grid-column: 2;
     grid-row: 5;
-    padding-top: 15px;
+    padding-top: 5px;
   }
 
   .read {
     grid-column: 2;
     grid-row: 6;
-    padding-top: 15px;
+    padding-top: 5px;
   }
 
   /*SECTION 3 Gallery/*/
 
   .gallery {
-    margin-top: 80px;
+    margin-top: 70px;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
