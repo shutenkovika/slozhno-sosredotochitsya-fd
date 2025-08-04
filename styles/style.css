@@ -182,7 +182,7 @@ a.link:focus-visible {
   }
 
   .header.decorated-zone::after {
-    bottom: 20px;
+    bottom: 40px;
   }
 
   .header__title {
@@ -196,46 +196,15 @@ a.link:focus-visible {
   }
 
   h1 {
-    padding-top: 230px;
+    padding-top: 190px;
   }
 
   .description {
     grid-column: 1;
     grid-row: 4;
-    padding-top: 35px;
+    padding-top: 20px;
     padding-bottom: 55px;
   }
-
-  /*.header__theme-menu-button {
-    background-color: transparent;
-    border: 1px solid transparent;
-    cursor: pointer;
-    padding: 0 10px;
-    width: 69px;
-    height: 25px;
-    outline: none;
-    color: var(--button-text-color);
-    font-family: var(--button-font-family);
-    font-size: var(--button-font-size);
-  }
-
-  .header__theme-menu-button_active {
-    outline: 1px solid var(--button-color);
-    pointer-events: none;
-  }
-
-  .header__theme-menu-button:hover {
-    border-bottom: 1px solid var(--button-color);
-  }
-
-  .header__theme-menu-button:focus {
-    outline: none;
-  }
-
-  .header__theme-menu-button:focus-visible {
-    border-bottom: 1px solid var(--button-color);
-    border: 1px solid var(--button-color);
-  }*/
 
   /*SECTION 1 WHY*/
   .why {
@@ -419,37 +388,6 @@ a.link:focus-visible {
   .description {
     grid-column: 2 / span 3;
     padding: 133px 12px 124px 6px;
-  }
-
-  .header__theme-menu-button {
-    background-color: transparent;
-    border: 1px solid transparent;
-    cursor: pointer;
-    padding: 0 15px;
-    width: 69px;
-    height: 25px;
-    outline: none;
-    color: var(--button-text-color);
-    font-family: var(--button-font-family);
-    font-size: var(--button-font-size);
-  }
-
-  .header__theme-menu-button_active {
-    outline: 1px solid var(--button-color);
-    pointer-events: none;
-  }
-
-  .header__theme-menu-button:hover {
-    border-bottom: 1px solid var(--button-color);
-  }
-
-  .header__theme-menu-button:focus {
-    outline: none;
-  }
-
-  .header__theme-menu-button:focus-visible {
-    border-bottom: 1px solid var(--button-color);
-    border: 1px solid var(--button-color);
   }
 
   /*SECTION 1 WHY*/
@@ -719,35 +657,6 @@ a.link:focus-visible {
     max-height: 71px;
     min-width: 491px;
   }
-
-  /*.header__theme-menu-button {
-    background-color: transparent;
-    border: 1px solid transparent;
-    cursor: pointer;
-    padding-left: 13px;
-    outline: none;
-    color: var(--button-text-color);
-    font-family: var(--button-font-family);
-    font-size: var(--button-font-size);
-  }
-
-  .header__theme-menu-button_active {
-    outline: 1px solid var(--button-color);
-    pointer-events: none;
-  }
-
-  .header__theme-menu-button:hover {
-    border-bottom: 1px solid var(--button-color);
-  }
-
-  .header__theme-menu-button:focus {
-    outline: none;
-  }
-
-  .header__theme-menu-button:focus-visible {
-    border-bottom: 1px solid var(--button-color);
-    border: 1px solid var(--button-color);
-  }*/
 
   /*SECTION 1 WHY*/
   .why {
