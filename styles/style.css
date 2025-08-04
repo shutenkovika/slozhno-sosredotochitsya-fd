@@ -275,7 +275,7 @@ a.link:focus-visible {
   /*SECTION 3 HOW*/
 
   .how {
-    margin-top: 53px;
+    margin-top: 52px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 22px;
@@ -291,7 +291,7 @@ a.link:focus-visible {
   }
 
   .card-how {
-    padding-bottom: 5px;
+    padding-bottom: 3px;
   }
 
   /*SECTION 3 Gallery/*/
@@ -324,7 +324,7 @@ a.link:focus-visible {
   }
 
   footer {
-    margin: 191px 0 100px 0;
+    margin: 211px 0 100px 0;
   }
   h2 {
     padding: 60px 0 60px 3px;
