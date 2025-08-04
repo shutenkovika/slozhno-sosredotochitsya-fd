@@ -683,7 +683,7 @@ a.link:focus-visible {
   /*SECTION 2 WHAT*/
 
   .what {
-    margin: 77px 0 0 0;
+    margin: 85px 0 0 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 18px;
