@@ -439,7 +439,7 @@ a.link:focus-visible {
   /*SECTION 3 HOW*/
 
   .how {
-    margin-top: 78px;
+    margin-top: 98px;
     margin-left: 20px;
     margin-right: 20px;
     display: grid;
@@ -495,7 +495,7 @@ a.link:focus-visible {
   /*SECTION 3 Gallery/*/
 
   .gallery {
-    margin-top: 80px;
+    margin-top: 98px;
     padding-inline: 20px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
