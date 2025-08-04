@@ -563,7 +563,7 @@ a.link:focus-visible {
   }
 
   .main-container {
-    margin-top: 90px;
+    margin-top: 60px;
     padding-left: 20px;
     padding-right: 20px;
     box-sizing: border-box;
@@ -638,16 +638,19 @@ a.link:focus-visible {
     padding: 0;
     font-family: var(--main-font-family);
     text-shadow: 4px 4px 0 var(--accent-color);
-    padding-top: 235px;
     color: var(--main-title-color);
+  }
+
+  h1.header__title {
+    padding-top: 226px;
   }
 
   .description {
     grid-column: 2 / span 3;
     grid-row: 3;
-    padding-top: 80px;
-    padding-left: 177.5px;
-    padding-right: 21px;
+    padding-top: 61px;
+    padding-left: 176px;
+    padding-right: 20px;
   }
 
   .header__description {
@@ -766,7 +769,7 @@ a.link:focus-visible {
   /*SECTION 3 Gallery/*/
 
   .gallery {
-    margin-top: 80px;
+    margin-top: 79px;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -817,7 +820,7 @@ a.link:focus-visible {
 
   .footer__title {
     padding-right: 10px;
-    padding-top: 139px;
+    padding-top: 125px;
   }
 
   .footer.decorated-zone::before {
@@ -826,7 +829,8 @@ a.link:focus-visible {
   }
 
   .footer.decorated-zone::after {
-    bottom: -66px;
+    top: 778px;
+    bottom: 0;
     left: 20px;
   }
 }
