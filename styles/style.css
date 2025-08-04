@@ -46,7 +46,7 @@ a.link:focus-visible {
   font-size: var(--main-font-size);
   font-family: var(--main-font-family);
   font-weight: 700;
-  color: var(--title-decor);
+  color: var(--title-color);
 }
 
 .title_small_how {
