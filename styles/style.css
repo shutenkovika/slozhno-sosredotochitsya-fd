@@ -745,6 +745,7 @@ a.link:focus-visible {
   }
 
   .musik {
+    padding-top: 10px;
     grid-column: 2;
     grid-row: 3;
   }
@@ -752,18 +753,19 @@ a.link:focus-visible {
   .walk {
     grid-column: 2;
     grid-row: 4;
+    padding-top: 10px;
   }
 
   .eat {
     grid-column: 2;
     grid-row: 5;
-    padding-top: 3px;
+    padding-top: 10px;
   }
 
   .read {
     grid-column: 2;
     grid-row: 6;
-    padding-top: 3px;
+    padding-top: 10px;
   }
 
   /*SECTION 3 Gallery/*/
