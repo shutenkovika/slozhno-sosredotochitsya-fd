@@ -225,23 +225,24 @@ a.link:focus-visible {
 
   .content-section_type_two-column .content-section-cards {
     display: grid;
-    row-gap: 23px;
+    row-gap: 20px;
   }
   /*.content-section_type_two-column .card {
-    padding-bottom: 20px;
+    padding-bottom: 10px;
   }*/
 
   .content-section_type_two-column .card .main-text {
-    padding-top: 8px;
+    padding-top: 10px;
   }
 
   /*What (секция из трех колонок)*/
 
   .content-section_type_three-column {
-    margin: 53px 0;
+    margin-top: 43px;
+    margin-bottom: 52px;
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 23px;
+    row-gap: 19px;
   }
 
   .content-section_type_three-column .title_main {
@@ -251,7 +252,7 @@ a.link:focus-visible {
   .content-section_type_three-column .content-section-cards {
     grid-column: 1 / span 2;
     display: grid;
-    gap: 21px;
+    gap: 20px;
   }
 
   .content-section_type_three-column .card .main-text {
@@ -261,7 +262,7 @@ a.link:focus-visible {
   /*SECTION 3 Gallery/*/
 
   .gallery {
-    margin: 55px 0 30px;
+    margin: 46px 0 30px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
@@ -288,7 +289,7 @@ a.link:focus-visible {
   }
 
   .footer {
-    margin-top: 25px;
+    margin-top: 0;
     display: flex;
     justify-content: center;
     align-items: center;
