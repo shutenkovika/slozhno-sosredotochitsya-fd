@@ -225,7 +225,7 @@ a.link:focus-visible {
 
   .content-section_type_two-column .content-section-cards {
     display: grid;
-    row-gap: 20px;
+    row-gap: 23px;
   }
   /*.content-section_type_two-column .card {
     padding-bottom: 20px;
@@ -241,7 +241,7 @@ a.link:focus-visible {
     margin: 50px 0;
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 20px;
+    row-gap: 23px;
   }
 
   .content-section_type_three-column .title_main {
