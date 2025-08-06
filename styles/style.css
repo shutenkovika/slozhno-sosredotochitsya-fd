@@ -15,7 +15,8 @@
 }
 
 a.link {
-  text-shadow: 2px 2px 0 var(--link-color);
+  text-shadow: 2px 2px 0 var(--link-shadow);
+  padding-right: 1px;
   text-decoration: none;
 }
 
@@ -24,7 +25,8 @@ a.link:hover {
 }
 
 a.link:focus-visible {
-  border-bottom: 1px solid var(--link-color);
+  border: 0.5px solid var(--link-color);
+  border-spacing: 1px;
   outline: none;
 }
 
@@ -42,7 +44,7 @@ a.link:focus-visible {
   color: var(--title-decor);
 }
 
-.title_main_decor {
+.title_main {
   font-size: var(--main-font-size);
   font-family: var(--main-font-family);
   font-weight: 700;
@@ -106,16 +108,16 @@ a.link:focus-visible {
 }
 
 .header__theme-menu-button_active {
-  outline: 1px solid var(--button-color);
+  border: 1px solid var(--button-color);
   pointer-events: none;
 }
 
 .header__theme-menu-button:hover {
-  border-bottom: 1px solid var(--button-color);
+  border: 1px solid var(--button-color);
 }
 
 .header__theme-menu-button:focus-visible {
-  border: 1px solid var(--button-color);
+  border-bottom: 1px solid var(--button-color);
   outline: none;
 }
 
@@ -125,9 +127,10 @@ a.link:focus-visible {
   }
 
   .main-container {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding: 30px 10px;
   }
+
+  /*HEADER*/
 
   /*HEADER*/
 
@@ -139,6 +142,7 @@ a.link:focus-visible {
     display: grid;
     position: relative;
     grid-template-columns: 1fr;
+    grid-template-rows: auto auto 0.8fr 0.4fr;
     margin: 8.5px 0 0px 0;
   }
 
@@ -166,7 +170,6 @@ a.link:focus-visible {
   }
 
   .header__theme-menu {
-    position: absolute;
     grid-column: 1;
     grid-row: 2;
     padding-top: 64px;
@@ -182,7 +185,7 @@ a.link:focus-visible {
   }
 
   .header.decorated-zone::after {
-    bottom: 40px;
+    bottom: 20px;
   }
 
   .header__title {
@@ -195,72 +198,58 @@ a.link:focus-visible {
     line-height: 83%;
   }
 
-  h1 {
-    padding-top: 190px;
+  .header h1 {
+    padding-top: 230px;
   }
 
   .description {
     grid-column: 1;
     grid-row: 4;
-    padding-top: 20px;
-    padding-bottom: 55px;
+    padding-top: 32px;
   }
 
-  /*SECTION 1 WHY*/
-  .why {
-    margin-top: 35px;
+  /*Why и How (секции из двух колонок)*/
+
+  .content-section_type_two-column {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 22px;
-    width: 100%;
+    gap: 20px;
   }
 
-  .text_inside_why {
-    padding-top: 10px;
+  .content-section_type_two-column h2 {
+    grid-column: 1;
   }
 
-  /*SECTION 2 WHAT*/
+  .content-section_type_two-column .content-section-cards {
+    display: grid;
+    row-gap: 21px;
+  }
 
-  .what {
-    margin-top: 52px;
+  .content-section_type_two-column .card .main-text {
+    padding-top: 8px;
+  }
+
+  /*What (секция из трех колонок)*/
+
+  .content-section_type_three-column {
+    margin: 52px 0 42px 0;
     display: grid;
     grid-template-columns: 1fr;
-    gap: 22px;
-    width: 100%;
+    gap: 21px;
   }
 
-  .paragrph-what {
-    padding-top: 5px;
+  .content-section_type_three-column .title_main {
+    grid-column: 1;
   }
 
-  .text_inside_what {
-    padding-top: 10px;
-  }
-
-  .card-what {
-    padding-bottom: 5px;
-  }
-
-  /*SECTION 3 HOW*/
-
-  .how {
-    margin-top: 52px;
+  .content-section_type_three-column .content-section-cards {
+    grid-column: 1 / span 2;
     display: grid;
-    grid-template-columns: 1fr;
-    gap: 22px;
-    width: 100%;
+    gap: 21px;
   }
 
-  .title_list {
-    background-color: var(--bg-elements-color);
-  }
-
-  .main-text-how {
-    padding-top: 10px;
-  }
-
-  .card-how {
-    padding-bottom: 3px;
+  .content-section_type_three-column .card .main-text {
+    padding-top: 8px;
   }
 
   /*SECTION 3 Gallery/*/
@@ -292,25 +281,38 @@ a.link:focus-visible {
     object-fit: cover;
   }
 
-  footer {
-    margin: 211px 0 100px 0;
+  .footer.decorated-zone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin-top: 10px;
   }
-  h2 {
-    padding: 60px 0 60px 3px;
+
+  .footer.h2 {
+    padding: 0px 0 60px 3px;
   }
 
   .footer.decorated-zone::before {
-    top: 42px;
+    top: 10px;
   }
 
   .footer.decorated-zone::after {
-    bottom: 10px;
+    bottom: 20px;
   }
 }
 
 @media (width >= 768px) {
   .page {
     background-color: var(--bg-color);
+  }
+
+  .main-container {
+    margin-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-sizing: border-box;
+    padding-top: 0;
   }
 
   /*HEADER*/
@@ -367,6 +369,7 @@ a.link:focus-visible {
 
   .header.decorated-zone::after {
     left: 20px;
+    bottom: 40px;
   }
 
   .header__title {
@@ -378,125 +381,64 @@ a.link:focus-visible {
     padding-top: 0;
   }
 
-  h1 {
-    padding-top: 145px;
+  .decorated-zone h1 {
+    padding-top: 68px;
   }
 
   .description {
     grid-column: 2 / span 3;
-    padding: 100px 12px 124px 6px;
+    padding: 53px 12px 124px 6px;
   }
 
-  /*SECTION 1 WHY*/
-  .why {
-    margin-top: 40px;
-    margin-left: 20px;
-    margin-right: 20px;
+  /*Why и How (секции из двух колонок)*/
+
+  .content-section_type_two-column {
     display: grid;
     grid-template-columns: 1fr 2fr;
-    gap: 17px;
-  }
-
-  .title_main {
-    grid-column: 1;
-  }
-
-  .title_inside_why {
-    background-color: var(--bg-elements-color);
-  }
-
-  .text_inside_why {
-    padding-top: 10px;
-  }
-
-  .card-why {
-    grid-column: 2;
-  }
-
-  /*SECTION 2 WHAT*/
-
-  .what {
-    margin-top: 80px;
-    margin-left: 21px;
-    margin-right: 21px;
-    display: grid;
-    grid-template-columns: 1fr;
     gap: 20px;
   }
 
-  .paragrph-what {
-    padding-top: 5px;
-  }
-
-  .title_main_what {
-    padding-right: 500px;
-  }
-
-  .text_inside_what {
-    padding-top: 10px;
-  }
-
-  /*SECTION 3 HOW*/
-
-  .how {
-    margin-top: 104px;
-    margin-left: 20px;
-    margin-right: 20px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    grid-template-rows: auto repeat(5, minmax(0, auto));
-    gap: 20px;
-  }
-
-  .title-how {
+  .content-section_type_two-column h2 {
     grid-column: 1;
-    grid-row: 1 / span 6;
   }
 
-  .title_inside_how {
-    padding-bottom: 10px;
+  .content-section_type_two-column .content-section-cards {
+    display: grid;
+    row-gap: 21px;
   }
 
-  .title_list {
-    grid-column: 2;
-    grid-row: 1;
+  .content-section_type_two-column .card .main-text {
+    padding-top: 7px;
   }
 
-  .main-text-how {
-    padding-top: 10px;
+  /*What (секция из трех колонок)*/
+
+  .content-section_type_three-column {
+    margin: 82px 0 82px 0;
+    display: grid;
+    grid-template-columns: 1fr 21fr;
+    gap: 21px;
   }
 
-  .sky {
-    grid-column: 2;
-    grid-row: 2;
-    padding-top: 3px;
+  .content-section_type_three-column .title_main {
+    grid-column: 1;
   }
 
-  .musik {
-    grid-column: 2;
-    grid-row: 3;
+  .content-section_type_three-column .content-section-cards {
+    grid-column: 1 / span 2;
+    display: grid;
+    gap: 21px;
   }
 
-  .walk {
-    grid-column: 2;
-    grid-row: 4;
-  }
-
-  .eat {
-    grid-column: 2;
-    grid-row: 5;
-  }
-
-  .read {
-    grid-column: 2;
-    grid-row: 6;
+  .content-section_type_three-column .card .main-text {
+    padding-top: 8px;
   }
 
   /*SECTION 3 Gallery/*/
 
   .gallery {
-    margin-top: 98px;
-    padding-inline: 20px;
+    margin-top: 83px;
+
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -542,8 +484,8 @@ a.link:focus-visible {
   }
 
   .footer__title {
-    padding-left: 200px;
-    padding-top: 480px;
+    padding-left: 204px;
+    padding-top: 473px;
   }
 
   .footer.decorated-zone::before {
@@ -552,7 +494,8 @@ a.link:focus-visible {
   }
 
   .footer.decorated-zone::after {
-    bottom: 20px;
+    top: 1019px;
+    bottom: 0;
     left: 20px;
   }
 }
@@ -608,14 +551,15 @@ a.link:focus-visible {
     grid-column: 2;
     grid-row: 1;
     padding-top: 20px;
-    padding-right: 45px;
+    justify-self: center;
+    padding-left: 20px;
   }
 
   .header__theme-menu-list {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 13px;
+    gap: 10px;
   }
 
   .header.decorated-zone::before {
@@ -658,120 +602,55 @@ a.link:focus-visible {
     min-width: 491px;
   }
 
-  /*SECTION 1 WHY*/
-  .why {
-    margin: 0;
+  /*Why и How (секции из двух колонок)*/
+
+  .content-section_type_two-column {
     display: grid;
-    grid-template-columns: 1fr 2.3fr;
-    gap: 17px;
+    grid-template-columns: 1fr 2fr;
+    gap: 10px;
   }
 
-  .title_main {
+  .content-section_type_two-column h2 {
     grid-column: 1;
-    padding: 0;
   }
 
-  .text_inside_why {
-    padding-top: 10px;
+  .content-section_type_two-column .content-section-cards {
+    display: grid;
+    row-gap: 21px;
   }
 
-  .card-why {
-    grid-column: 2;
-    padding-left: 23px;
+  .content-section_type_two-column .card .main-text {
+    padding-top: 7px;
   }
 
-  /*SECTION 2 WHAT*/
+  /*What (секция из трех колонок)*/
 
-  .what {
-    margin: 85px 0 0 0;
+  .content-section_type_three-column {
+    margin: 82px 0 82px 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 18px;
+    gap: 21px;
   }
 
-  .mnogozadchnost-what {
+  .content-section_type_three-column .title_main {
     grid-column: 1;
-    padding-top: 5px;
   }
 
-  .food {
-    grid-column: 2;
-    padding-top: 5px;
-  }
-
-  .gadgets {
-    grid-column: 3;
-    padding-left: 2px;
-    padding-top: 5px;
-  }
-
-  .text_inside_what {
-    padding-top: 10px;
-  }
-
-  /*SECTION 3 HOW*/
-
-  .how {
-    margin: 85px 0 0 0;
-    width: 100%;
+  .content-section_type_three-column .content-section-cards {
+    grid-column: 1 / span 3;
     display: grid;
-    grid-template-columns: 1fr 2.1fr;
-    grid-template-rows: auto repeat(5, minmax(0, auto));
-    gap: 18px;
+    grid-template-columns: subgrid;
+    gap: 21px;
   }
 
-  .title-how {
-    grid-column: 1;
-    grid-row: 1 / span 6;
-  }
-  .card-how {
-    padding-left: 4px;
-  }
-
-  .title_list {
-    grid-column: 2;
-    grid-row: 1;
-    padding-left: 5px;
-  }
-
-  .main-text-how {
-    padding-top: 10px;
-  }
-
-  .sky {
-    grid-column: 2;
-    grid-row: 2;
-    padding-top: 3px;
-  }
-
-  .musik {
-    padding-top: 10px;
-    grid-column: 2;
-    grid-row: 3;
-  }
-
-  .walk {
-    grid-column: 2;
-    grid-row: 4;
-    padding-top: 10px;
-  }
-
-  .eat {
-    grid-column: 2;
-    grid-row: 5;
-    padding-top: 5px;
-  }
-
-  .read {
-    grid-column: 2;
-    grid-row: 6;
-    padding-top: 5px;
+  .content-section_type_three-column .card .main-text {
+    padding-top: 8px;
   }
 
   /*SECTION 3 Gallery/*/
 
   .gallery {
-    margin-top: 70px;
+    margin-top: 82px;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
