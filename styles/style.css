@@ -238,7 +238,7 @@ a.link:focus-visible {
   /*What (секция из трех колонок)*/
 
   .content-section_type_three-column {
-    margin: 50px 0;
+    margin: 53px 0;
     display: grid;
     grid-template-columns: 1fr;
     row-gap: 23px;
@@ -261,7 +261,7 @@ a.link:focus-visible {
   /*SECTION 3 Gallery/*/
 
   .gallery {
-    margin: 51px 0 30px;
+    margin: 55px 0 30px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
@@ -287,17 +287,8 @@ a.link:focus-visible {
     object-fit: cover;
   }
 
-  /*.footer.decorated-zone {
-    display: flex;
-    gap: 0;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    padding-top: 0;
-  }*/
-
   .footer {
-    margin: 0;
+    margin: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
