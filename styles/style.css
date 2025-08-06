@@ -224,6 +224,9 @@ a.link:focus-visible {
     display: grid;
     row-gap: 21px;
   }
+  .content-section_type_two-column .card {
+    padding-bottom: 5px;
+  }
 
   .content-section_type_two-column .card .main-text {
     padding-top: 8px;
@@ -232,7 +235,7 @@ a.link:focus-visible {
   /*What (секция из трех колонок)*/
 
   .content-section_type_three-column {
-    margin: 52px 0 42px 0;
+    margin: 40px 0 46px 0;
     display: grid;
     grid-template-columns: 1fr;
     gap: 21px;
