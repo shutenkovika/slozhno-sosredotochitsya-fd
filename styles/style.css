@@ -549,6 +549,7 @@ a.link:focus-visible {
     display: grid;
     position: relative;
     grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto 2fr 1fr;
     margin: 0 17px 0 0;
   }
 
@@ -616,13 +617,13 @@ a.link:focus-visible {
   }
 
   h1.header__title {
-    padding-top: 226px;
+    padding-top: 270px;
   }
 
   .description {
     grid-column: 2 / span 3;
     grid-row: 3;
-    padding-top: 61px;
+    padding-top: 36px;
     padding-left: 176px;
     padding-right: 20px;
   }
@@ -646,20 +647,20 @@ a.link:focus-visible {
 
   .content-section_type_two-column .content-section-cards {
     display: grid;
-    row-gap: 21px;
+    row-gap: 20px;
   }
 
   .content-section_type_two-column .card .main-text {
-    padding-top: 7px;
+    padding-top: 10px;
   }
 
   /*What (секция из трех колонок)*/
 
   .content-section_type_three-column {
-    margin: 82px 0 82px 0;
+    margin: 82px 0 80px 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 21px;
+    gap: 20px;
   }
 
   .content-section_type_three-column .title_main {
@@ -680,7 +681,7 @@ a.link:focus-visible {
   /*SECTION 3 Gallery/*/
 
   .gallery {
-    margin-top: 82px;
+    margin-top: 80px;
     padding: 0;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -724,24 +725,22 @@ a.link:focus-visible {
 
   footer {
     position: relative;
-    margin-top: 110px;
+    margin-top: 30px;
     padding-inline: 20px;
     text-align: center;
   }
 
   .footer__title {
     padding-right: 10px;
-    padding-top: 125px;
+    padding-top: 300px;
   }
 
   .footer.decorated-zone::before {
-    top: 79px;
     right: 21px;
   }
 
   .footer.decorated-zone::after {
-    top: 778px;
-    bottom: 0;
+    bottom: 20;
     left: 20px;
   }
 }
