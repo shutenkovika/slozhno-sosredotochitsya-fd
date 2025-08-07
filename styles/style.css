@@ -227,22 +227,36 @@ a.link:focus-visible {
     display: grid;
     row-gap: 20px;
   }
-  /*.content-section_type_two-column .card {
-    padding-bottom: 10px;
-  }*/
 
-  .content-section_type_two-column .card .main-text {
-    padding-top: 10px;
+  .content-section_type_two-column .card {
+    display: grid;
+    gap: 9px;
+  }
+
+  .content-section_type_two-column .content-section-cards .card:nth-of-type(2) {
+    padding-top: 0;
+  }
+
+  .content-section_type_two-column .card h3,
+  .content-section_type_two-column .card h4 {
+    margin: 0;
+    padding: 0;
+  }
+
+  .content-section_type_two-column .card p {
+    margin: 0;
+    padding: 0;
   }
 
   /*What (секция из трех колонок)*/
 
   .content-section_type_three-column {
-    margin-top: 43px;
-    margin-bottom: 52px;
+    margin-top: 37px;
+    margin-bottom: 50px;
+    padding-top: 10px;
     display: grid;
     grid-template-columns: 1fr;
-    row-gap: 19px;
+    gap: 20px;
   }
 
   .content-section_type_three-column .title_main {
@@ -250,13 +264,19 @@ a.link:focus-visible {
   }
 
   .content-section_type_three-column .content-section-cards {
-    grid-column: 1 / span 2;
     display: grid;
     gap: 20px;
   }
 
-  .content-section_type_three-column .card .main-text {
-    padding-top: 8px;
+  .content-section_type_three-column .card {
+    display: grid;
+    gap: 9px;
+  }
+
+  .content-section_type_three-column .card h3,
+  .content-section_type_three-column .card p {
+    margin: 0;
+    padding: 0;
   }
 
   /*SECTION 3 Gallery/*/
@@ -290,6 +310,7 @@ a.link:focus-visible {
 
   .footer {
     margin-top: 0;
+    margin-bottom: 0;
     display: flex;
     justify-content: center;
     align-items: center;
