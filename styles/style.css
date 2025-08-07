@@ -34,6 +34,7 @@ a.link:focus-visible {
   font-size: var(--main-font-size);
   font-family: var(--main-font-family);
   color: var(--text-color);
+  line-height: 23.4px;
 }
 
 .title-decor {
@@ -251,8 +252,8 @@ a.link:focus-visible {
   /*What (секция из трех колонок)*/
 
   .content-section_type_three-column {
-    margin-top: 37px;
-    margin-bottom: 50px;
+    margin-top: 40px;
+    margin-bottom: 52px;
     padding-top: 10px;
     display: grid;
     grid-template-columns: 1fr;
@@ -282,7 +283,7 @@ a.link:focus-visible {
   /*SECTION 3 Gallery/*/
 
   .gallery {
-    margin: 46px 0 30px;
+    margin: 51px 0 30px;
     display: grid;
     grid-template-columns: 1fr;
     gap: 10px;
