@@ -409,6 +409,7 @@ a.link:focus-visible {
     text-shadow: 4px 4px 0 var(--accent-color);
     color: var(--main-title-color);
     padding-top: 0;
+    line-height: 83%;
   }
 
   .decorated-zone h1 {
@@ -434,17 +435,17 @@ a.link:focus-visible {
 
   .content-section_type_two-column .content-section-cards {
     display: grid;
-    row-gap: 21px;
+    row-gap: 20px;
   }
 
   .content-section_type_two-column .card .main-text {
-    padding-top: 7px;
+    padding-top: 10px;
   }
 
   /*What (секция из трех колонок)*/
 
   .content-section_type_three-column {
-    margin: 82px 0 82px 0;
+    margin: 80px 0 80px 0;
     display: grid;
     grid-template-columns: 1fr 21fr;
     gap: 21px;
@@ -468,7 +469,7 @@ a.link:focus-visible {
 
   .gallery {
     margin-top: 83px;
-
+    margin-bottom: 80px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
@@ -509,24 +510,22 @@ a.link:focus-visible {
     grid-column: span 2;
   }
 
-  footer {
-    margin-top: 38px;
-  }
+  /*footer {
+    margin-top: 80px;
+  }*/
 
   .footer__title {
     padding-left: 204px;
-    padding-top: 473px;
+    padding-top: 440px;
   }
 
   .footer.decorated-zone::before {
-    top: 62px;
     right: 20px;
   }
 
   .footer.decorated-zone::after {
-    top: 1019px;
-    bottom: 0;
     left: 20px;
+    bottom: 40px;
   }
 }
 
@@ -613,6 +612,7 @@ a.link:focus-visible {
     font-family: var(--main-font-family);
     text-shadow: 4px 4px 0 var(--accent-color);
     color: var(--main-title-color);
+    line-height: 83%;
   }
 
   h1.header__title {
