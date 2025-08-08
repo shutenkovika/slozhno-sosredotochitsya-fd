@@ -116,7 +116,7 @@ a.link:focus-visible {
 }
 
 .header__theme-menu-button:hover {
-  border: 1px solid transparent;
+  border: 1px solid var(--button-transparent);
 }
 
 .header__theme-menu-button:focus-visible {
@@ -399,20 +399,17 @@ a.link:focus-visible {
 
   /* WHY и HOW */
 
-  .content-section_why,
-  .content-section_how {
+  .content-section_why-how {
     display: grid;
     grid-template-columns: 1fr 2fr;
     gap: 20px;
   }
 
-  .content-section_why h2,
-  .content-section_how h2 {
+  .content-section_why-how h2 {
     grid-column: 1;
   }
 
-  .content-section_why .content-section-cards,
-  .content-section_how .content-section-cards {
+  .content-section_why-how .content-section-cards {
     display: grid;
     row-gap: 20px;
   }
@@ -605,8 +602,7 @@ a.link:focus-visible {
 
   /* WHY HOW */
 
-  .content-section_why,
-  .content-section_how {
+  .content-section_why-how {
     grid-template-columns: 1fr 2fr;
     gap: 10px;
   }
@@ -615,8 +611,7 @@ a.link:focus-visible {
     row-gap: 20px;
   }
 
-  .content-section_why h2,
-  .content-section_how h2 {
+  .content-section_why-how h2 {
     grid-column: 1;
   }
 
