@@ -61,4 +61,7 @@
     --link-color: #353430;
     --link-shadow: #ff8dcb;
     --button-color: #353430;
-    -
+    --button-text-color: #353430;
+    --button-transparent: #32312d66;
+  }
+}
